@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .column {
+            flex-basis: 30%;
+            margin-bottom: 20px;
+        }
+        .image {
+            width: 65%;
+            height: 70%;
+        }
+        .info {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <img class="image" src="love.jpg" alt="love">
+                <div class="info">
+                    <h3>love</h3>
+                    <p>Price: Rs-28,000</p>
+                </div>
+            </div>
+            <div class="column">
+                <img class="image" src="valentino.jpg" alt="valentino">
+                <div class="info">
+                    <h3>valentino</h3>
+                    <p>Price: Rs-29,000</p>
+                </div>
+            </div>
+            <div class="column">
+                <img class="image" src="devil.jpg" alt="devil">
+                <div class="info">
+                    <h3>devil</h3>
+                    <p>Price: Rs-28,000</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img class="image" src="stare.jpg" alt="stare">
+                <div class="info">
+                    <h3>stare</h3>
+                    <p>Price: Rs-28,000</p>
+                </div>
+            </div>
+            <div class="column">
+                <img class="image" src="Jimmy Choo .jpg" alt="Jimmy Choo">
+                <div class="info">
+                    <h3>Jimmy Choo</h3>
+                    <p>Price: Rs-28,000</p>
+                </div>
+            </div>
+            <div class="column">
+                <img class="image" src="riverdale.jpg" alt="riverdale">
+                <div class="info">
+                    <h3>riverdale</h3>
+                    <p>Price: Rs-28,000</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
